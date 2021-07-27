@@ -6,6 +6,12 @@
 body {
   width: 100%;
   height: 100%;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #818181;
 }
 
 .video-container{
@@ -39,6 +45,7 @@ body {
 }
 
 .navbar{
+  font-family: 'Jua';
   position: fixed;
   top: 0;
   left: 0;
@@ -55,11 +62,12 @@ body {
 
 .navbar__logo{
   font-size: 24px;
+  font-weight: 550;
   color: white;
 }
 
-.navbar__logo i {
-  color:#d49466;
+.navbar__logo a {
+  color:#FF1493;
 }
 
 .navbar__menu {
@@ -72,14 +80,14 @@ body {
   padding: 8px 12px;
 }
 
-.navbar__menu li:hover {
-  background-color: #d49466;
-  border-radius: 4px;
+.navbar__menu li a:hover {
+  color: #FF1493;
 }
 
 .navbar__icons {
+  font-size: 24px;
   list-style: none;
-  color: white;
+  color: black;
   display: flex;
   padding-left:0;
 }
